@@ -6,12 +6,14 @@ This document provides a detailed overview of the functionality, design, and com
 The PhonePe Pulse dashboard is designed with an intuitive sidebar for navigation. Users can switch between the 'Home' section and the 'Case Studies' section:
 
 **Home:** Displays a title and brief introductory message.
+
 **Case Studies:** Contains five detailed analytical modules focusing on various aspects of PhonePe’s business operations.
 
 Each case study is accessible via a dropdown menu, enabling dynamic content rendering based on user selection.
 
 ### 2. Case Studies Functionalities
-**2.1 Case Study 1:** Decoding Transaction Dynamics
+**2.1 Case Study 1 - Decoding Transaction Dynamics**
+
 This module provides insights into the total transaction volume and amount on PhonePe across different states, transaction types, and time frames.
 
 **Features:**
@@ -23,7 +25,8 @@ This module provides insights into the total transaction volume and amount on Ph
 
 The visualizations support year and quarter filters, allowing granular analysis.
 
-**2.2 Case Study 2: Device Dominance and User Engagement**
+**2.2 Case Study 2 - Device Dominance and User Engagement**
+
 This case study explores user interaction patterns, especially from the perspective of devices, districts, and states.
 
 **Features:**
@@ -36,7 +39,8 @@ This case study explores user interaction patterns, especially from the perspect
 A mix of filters and visual feedback mechanisms help in identifying focus areas for growth.
 
 
-**2.3 Case Study 3: User Registration Analysis**
+**2.3 Case Study 3 - User Registration Analysis**
+
 This module analyzes the number of users registered with PhonePe across states, districts, and pincodes.
 
 **Features:**
@@ -47,7 +51,8 @@ This module analyzes the number of users registered with PhonePe across states, 
 
 These visualizations provide valuable insights into regional adoption of PhonePe.
 
-**2.4 Case Study 4: Insurance Transactions Analysis**
+**2.4 Case Study 4 - Insurance Transactions Analysis**
+
 Focuses on analyzing insurance-related transactions facilitated through PhonePe.
 
 **Features:**
@@ -57,7 +62,8 @@ Focuses on analyzing insurance-related transactions facilitated through PhonePe.
 
 The module helps in understanding the geographical spread of PhonePe’s insurance offerings.
 
-**2.5 Case Study 5: Market Expansion Strategy**
+**2.5 Case Study 5 - Market Expansion Strategy**
+
 Designed to assist in strategic expansion by analyzing transaction performance across regions.
 
 **Features:**
@@ -70,10 +76,15 @@ This section combines historical trends and real-time metrics to support busines
 
 ### 3. Technologies and Libraries Used
 **Streamlit:** Web application framework for building interactive dashboards.
+
 **Plotly:** Charting and data visualization library for creating interactive plots.
+
 **Pandas:** Data manipulation and preprocessing.
+
 **MySQL + SQLAlchemy:** Data storage and querying.
+
 **GeoJSON:** Spatial data rendering for map-based visualizations.
+
 **Python:** Core programming language for building backend logic.
 
 ### 4. Conclusion
